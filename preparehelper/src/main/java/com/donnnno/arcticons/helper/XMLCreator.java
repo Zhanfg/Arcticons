@@ -87,8 +87,15 @@ public class XMLCreator {
         Files.writeString(drawableXml, xml.toString());
 
         syncFiles(drawableXml, Path.of(assetPath, "drawable.xml"));
-        syncFiles(Path.of(appFilterPath), Path.of(assetPath, "appfilter.xml"),
-                Path.of(xmlDir, "appfilter.xml"), Path.of(assetPath, "icon_config.xml"),
+        // Add fork-specific aliases without rewriting the upstream 6 MB appfilter.xml.
+        // Existing upstream mappings remain authoritative; duplicates are skipped.
+        CustomIconMappings.writeMerged(
+                Path.of(appFilterPath),
+                Path.of(appFilterPath).getParent().getParent().resolve("custom-icons/appfilter.xml"),
+                availableIcons,
+                Path.of(assetPath, "appfilter.xml"),
+                Path.of(xmlDir, "appfilter.xml"),
+                Path.of(assetPath, "icon_config.xml"),
                 Path.of(xmlDir, "icon_config.xml"));
     }
 
