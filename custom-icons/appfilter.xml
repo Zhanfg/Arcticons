@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- BakaSU: reuse the original KernelSU icon -->
+    <item component="ComponentInfo{com.resukisu.resukisu/org.bakasu.bakasu.ui.MainActivityAlias}" drawable="kernelsu"/>
+
+    <!-- ViPER4Android: reuse the existing Viper icon -->
+    <item component="ComponentInfo{com.llsl.viper4android/com.llsl.viper4android.ui.MainActivity}" drawable="viper"/>
+</resources>
