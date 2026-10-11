@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <!-- BakaSU: reuse the original KernelSU icon -->
-    <item component="ComponentInfo{com.resukisu.resukisu/org.bakasu.bakasu.ui.MainActivityAlias}" drawable="kernelsu"/>
-
-    <!-- ViPER4Android: reuse the existing Viper icon -->
-    <item component="ComponentInfo{com.llsl.viper4android/com.llsl.viper4android.ui.MainActivity}" drawable="viper"/>
+  <!-- Alpha Backup Pro -->
+  <item component="ComponentInfo{com.ruet_cse_1503050.ragib.appbackup.pro/com.ruet_cse_1503050.ragib.appbackup.pro.activities.LauncherActivity}" drawable="alpha_backup_pro"/>
+  <!-- BakaSU -->
+  <item component="ComponentInfo{com.resukisu.resukisu/org.bakasu.bakasu.ui.MainActivityAlias}" drawable="kernelsu"/>
+  <!-- BoxProxy -->
+  <item component="ComponentInfo{com.boxproxy.box/com.box.app.MainLauncherDefault}" drawable="boxproxy"/>
+  <!-- HMA-OSS -->
+  <item component="ComponentInfo{org.frknkrc44.hma_oss/org.frknkrc44.hma_oss.MainActivityLauncherAlt3}" drawable="hma_oss"/>
+  <!-- JMComic3 -->
+  <item component="ComponentInfo{com.a7m3p9xv.t6qk2z8.app/com.a7m3p9xv.t6qk2z8.app.MainActivity}" drawable="jmcomic3"/>
+  <!-- Muse -->
+  <item component="ComponentInfo{com.facebook.aura/com.facebook.aura.main.AuraMainActivity}" drawable="muse"/>
+  <!-- NoActive -->
+  <item component="ComponentInfo{cn.myflv.noactive/cn.myflv.noactive.ui.activity.MainActivity}" drawable="noactive"/>
+  <!-- Re:X -->
+  <item component="ComponentInfo{one.dot.rex/one.dot.rex.LauncherActivityAlias}" drawable="re_x"/>
+  <!-- Stellar -->
+  <item component="ComponentInfo{roro.stellar.manager/roro.stellar.manager.MainActivity}" drawable="stellar"/>
+  <!-- ViPER4Android -->
+  <item component="ComponentInfo{com.llsl.viper4android/com.llsl.viper4android.ui.MainActivity}" drawable="viper"/>
 </resources>
